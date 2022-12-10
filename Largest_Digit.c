@@ -1,16 +1,17 @@
+
 #include<stdio.h>
 int main()
 {
-    int n,rem,l=0;
-    scanf("%d",&n);
-    while(n>0)
+    int number,reminder,large=0;
+    scanf("%d",&number);
+    while(number>0)
     {
-        rem=n%10;
-        if(l<rem)
+        reminder=number%10;
+        if(large<reminder)
         {
-            l=rem;
+            large=reminder;
         }
-        n=n/10;
+        number=number/10;
     }
-    printf("%d",l);
+    printf("%d",large);
 }

@@ -1,18 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int n,r=0,rem;
+    int n;
     scanf("%d",&n);
     int sq=n*n;
-    while(n!=0)
+    int rev=0;
+    while(n>0)
     {
-        rem=n%10;
-        r=r*10+rem;
+        int r=n%10;
+        rev=rev*10+r;
         n=n/10;
     }
-    int x=r*r;
+    int x=rev*rev;
     int y=0;
-    while(x!=0)
+    while(x>0)
     {
         int r=x%10;
         y=y*10+r;

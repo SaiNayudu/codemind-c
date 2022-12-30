@@ -2,14 +2,15 @@
 int main()
 {
     char str[10000];
-    int i,c=0;
+    int i=0,cnt=0;
     scanf("%s",str);
-    for(i=0;str[i]!=NULL;i++)
+    while(str[i]!=NULL)
     {
         if(str[i]=='1')
         {
-            c++;
+            cnt++;
         }
+        i++;
     }
-    printf("%d",c);
+    printf("%d",cnt);
 }

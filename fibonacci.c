@@ -11,10 +11,10 @@ int main()
         c=1;
         else
         {
-        temp=a;
-        a=b;
-        b=c;
-        c=a+b;
+            temp=a;
+            a=b;
+            b=c;
+            c=a+b;
         }
         printf("%d ",c);
     }

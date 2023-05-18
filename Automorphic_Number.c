@@ -14,4 +14,5 @@ int main()
     printf("Automorphic Number");
     else
     printf("Not an Automorphic Number");
+    
 }

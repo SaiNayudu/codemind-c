@@ -20,7 +20,7 @@ for(i=l;i<=n;i++)
     }
         if(c==tc)
         {
-	        printf("%d ",i);
+            printf("%d ",i);
         }
-}	
+    }	
 }

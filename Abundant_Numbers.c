@@ -1,17 +1,25 @@
 #include<stdio.h>
 int main()
+// ABUNDANT NUMBER
 {
-    int n,s=0;
+    int n,i,sum=0;
+    //printf("Enter the value of n :
+");
     scanf("%d",&n);
-    for(int i=1;i<n;i++)
+    for(i=1;i<n;i++)
     {
         if(n%i==0)
         {
-            s=s+i;
+            sum+=i;
         }
     }
-    if(s>n)
-    printf("True");
+    if(sum>n)
+    {
+        printf("True");
+    }
     else
-    printf("False");
+    {
+        printf("False");
+    }
 }
+

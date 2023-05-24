@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main()
+// ADAM NUMBER
 {
     int n;
+    //printf("Enter the Value of n: 
+");
     scanf("%d",&n);
     int sq=n*n;
     int rev=0;

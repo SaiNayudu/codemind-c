@@ -1,8 +1,8 @@
-
 #include<stdio.h>
 int main()
 {
     int number,reminder,large=0;
+    //printf("Enter Number: ");
     scanf("%d",&number);
     while(number>0)
     {

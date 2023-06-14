@@ -7,9 +7,6 @@ int main()
     for(int i=0;i<n;i++)
     {
         scanf("%d",&x[i]);
-    }
-    for(int i=0;i<n;i++)
-    {
         if(i%2!=0)
         {
             s=s+x[i];
